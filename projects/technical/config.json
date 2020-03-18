@@ -6,6 +6,7 @@
     "html": {
         "auto_landing": false,
         "toggle_code": false,
+        "jump_buttons": false,
         "links": {
             "DroneCrafting.com": "http://dronecrafting.com",
             "Feedback/Support": "https://github.com/ByteWelder/DroneCrafting/issues"
