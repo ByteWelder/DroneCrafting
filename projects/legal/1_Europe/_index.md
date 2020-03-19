@@ -19,7 +19,7 @@ Privately built drones will have no classification, but they are assigned a subc
 a classfication.
 
 
- Class | Weight(\*) | Subcategory | Distance from people | Operation registration | Pilot competence
+ Class | Weight(\*) | Subcategory | Distance from people | Operator registration | Pilot competence
 ------------------|:----------:|:-----------:|:-------------------------------------------:|:----------------------:|:-----------------------------------------------:
 | Privately built | < 250 g | A1 | Fly over uninvolved people (not crowds)   | No  | Read owner manual                              |
 | C0              | < 250 g | A1 | Fly over uninvolved people (not crowds)   | No  | Read owner manual                              |
