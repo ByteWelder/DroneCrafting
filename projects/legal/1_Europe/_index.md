@@ -20,16 +20,17 @@ a classfication.
 
 
  Class | Weight(\*) | Subcategory | Distance from people | Operator registration | Pilot competence
-------------------|:----------:|:-----------:|:-------------------------------------------:|:----------------------:|:-----------------------------------------------:
-| Privately built | < 250 g | A1 | Fly over uninvolved people (not crowds)   | No  | Read owner manual                              |
-| C0              | < 250 g | A1 | Fly over uninvolved people (not crowds)   | No  | Read owner manual                              |
-| C1              | < 900 g | A1 | Fly over uninvolved people (not crowds)   | Yes | Read manual, pass online test                  |
-| C2              | < 4 kg  | A2 | Fly at safe distance from uninvolved people | Yes | Read manual, pass online test, extra test (\*\*) |
-| C3              | < 25 kg | A3 | Avoid people and urban areas                | Yes | Read manual, pass online test                  |
-| C4              | < 25 kg | A3 | Avoid people and urban areas                | Yes | Read manual, pass online test                  |
-| Privately built | < 25 kg | A3 | Avoid people and urban areas                | Yes | Read manual, pass online test                  |
+------------------|:-------:|:--:|:--------------------------------------------|:---:|:-------------------------------------------------
+| Privately built | < 250 g | A1 | Can fly over uninvolved people (not crowds)      | No  | Read owner manual                                |
+| C0              | < 250 g | A1 | Can fly over uninvolved people (not crowds)      | No  | Read owner manual                                |
+| C1              | < 900 g | A1 | Can fly over uninvolved people (not crowds)      | Yes | Read manual, pass online test                    |
+| C2              | < 4 kg  | A2 | Fly at safe distance away from uninvolved people | Yes | Read manual, pass online test, extra test (\*\*) |
+| C3              | < 25 kg | A3 | Avoid people and urban areas                     | Yes | Read manual, pass online test                    |
+| C4              | < 25 kg | A3 | Avoid people and urban areas                     | Yes | Read manual, pass online test                    |
+| Privately built | < 25 kg | A3 | Avoid people and urban areas                     | Yes | Read manual, pass online test                    |
 
 (\*) Maximum total take-off weight, including batteries and payload.
+
 (\*\*) Only if you want to fly close to non-involved people.
 
 # Sources
