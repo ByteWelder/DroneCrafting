@@ -39,7 +39,7 @@ This covers all drones that were sold on/after July 2020 with a class label (`Cx
 
 ## Store bought drones without classification
 
-This covers all drones that were store bought and have a `19 m/s` speed limit, but they were sold before July 2020, so they don't have an official `Cx` label.
+This covers drones that were sold before July 2020, so they don't have an official `Cx` label.
 None of these drones require RemoteID.
 
  Weight | Subcategory | Distance from people | Operator registration | Pilot competence | Speed 
