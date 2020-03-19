@@ -6,3 +6,4 @@ TODO:
 - Drone sizes?
 - Buying versus building
 - Controllers
+- Video editing
