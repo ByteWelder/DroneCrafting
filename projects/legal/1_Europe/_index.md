@@ -18,8 +18,6 @@ The base classification is `C0`, `C1`, `C3` or `C4`. This will be specified by t
 Privately built drones will have no classification, but they are assigned a subcategory, just like the drones that come with
 a classfication.
 
-Because people generally fly either privately built drones _or_ store-bought ones, I've divided the table up in 2 parts:
-
 Some notes on the tables below:
 - The speed limit is the limitation of the drone, not the speed at which you fly it.
 - "Weight" refers to the maximum total take-off weight, including batteries and payload.
