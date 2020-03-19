@@ -27,13 +27,13 @@ Some notes on the tables below:
 
 This covers all drones that were sold on/after July 2020 with a class label (`Cx`).
 
- Class | Weight | Subcategory | Distance from people | Operator registration | Pilot competence | RemoteID
-:---:|:-------:|:--:|:-------------------------------------------------|:---:|:-------------------------------------------------|:----:
-| C0 | < 250 g | A1 | Can fly over uninvolved people (not crowds)      | No  | Read owner manual                                | No  |
-| C1 | < 900 g | A1 | Can fly over uninvolved people (not crowds)      | Yes | Read manual, pass online test                    | Yes |
-| C2 | < 4 kg  | A2 | Fly at safe distance away from uninvolved people | Yes | Read manual, pass online test, extra test (\*) | Yes |
-| C3 | < 25 kg | A3 | Avoid people and urban areas                     | Yes | Read manual, pass online test                    | Yes |
-| C4 | < 25 kg | A3 | Avoid people and urban areas                     | Yes | Read manual, pass online test                    | Yes |
+ Class | Weight | Subcategory | Distance from people | Operator registration | Pilot competence | RemoteID | Speed
+:---:|:-------:|:--:|:-------------------------------------------------|:---:|:-----------------------------------------------|:---:|:---------:
+| C0 | < 250 g | A1 | Can fly over uninvolved people (not crowds)      | No  | Read owner manual                              | No  | < 19 m/s |
+| C1 | < 900 g | A1 | Can fly over uninvolved people (not crowds)      | Yes | Read manual, pass online test                  | Yes | < 19 m/s |
+| C2 | < 4 kg  | A2 | Fly at safe distance away from uninvolved people | Yes | Read manual, pass online test, extra test (\*) | Yes | < 19 m/s |
+| C3 | < 25 kg | A3 | Avoid people and urban areas                     | Yes | Read manual, pass online test                  | Yes | < 19 m/s |
+| C4 | < 25 kg | A3 | Avoid people and urban areas                     | Yes | Read manual, pass online test                  | Yes | /        |
 
 (\*) Only if you want to fly close to non-involved people.
 
