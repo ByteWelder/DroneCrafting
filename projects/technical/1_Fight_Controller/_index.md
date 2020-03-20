@@ -73,4 +73,4 @@ KISS firmwares are not open source, and its flight Controllers tend to be more e
 Here are some sources with more in-depth information on flight controllers:
 - [Flight controller explained @ OscarLiang.com](https://oscarliang.com/flight-controller-explained/)
 - [Flight controller firmwares @ dronetrest.com](https://blog.dronetrest.com/flight-controller-firmware/)
-
+- [Joshua Bardwell's shopping list](https://www.fpvknowitall.com/fpv-shopping-list-parts/)
