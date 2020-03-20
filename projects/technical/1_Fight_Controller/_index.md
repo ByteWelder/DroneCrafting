@@ -24,7 +24,7 @@ your flight parameters. The more storage it has, the more features the software 
 Currently, F4 and F7 flight controllers are the most common ones to find.
 
 Type | Speed | Storage
-----:|:-------:|:-------:
+:---:|:-------:|:-------:
 | F1 | 72 MHz  | 128 kB |
 | F3 | 72 MHz  | 256 kB |
 | F4 | 168 MHz | 1 MB   |
