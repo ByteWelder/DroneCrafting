@@ -18,11 +18,15 @@ Take a look at the [budget](Budget) article for more information.
 
 When you have decided your budget, you can start looking for [gear](Gear)!
 
+Those who are planning to [build](Building) their own drone should be ready to learn a lot
+of new and exciting things. And that's also why drones are such an exciting hobby:
+You get to touch lots of interesting topics, like electrical engineering, electronics, flying, motors, 
+radio signals, video editing and probably a lot more!
+
 # TODO
 
 Things I'll write about in the future:
 - Flying styles
-- Building
 - Drone sizes
 - Buying versus building
 - Controllers
