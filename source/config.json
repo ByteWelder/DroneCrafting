@@ -1,12 +1,13 @@
 {
-    "title": "DroneCrafting",
+    "title": "DroneCrafting.com",
     "tagline": "Information on buying, building and fixing drones/multicopters.",
     "author": "Ken Van Hoeylandt",
-    "image": "images/dronecrafting.png",
+    "image": "images/logo.png",
     "html": {
         "auto_landing": false,
         "toggle_code": false,
         "jump_buttons": false,
+        "edit_on_github": "ByteWelder/DroneCrafting/tree/master/source",
         "links": {
             "Contribute": "https://github.com/ByteWelder/DroneCrafting",
             "Feedback/Support": "https://github.com/ByteWelder/DroneCrafting/issues"

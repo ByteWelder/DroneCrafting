@@ -1,12 +1,12 @@
 ---
-title: " "
+title: "Welcome"
 description: "DroneCrafting is an open source drone and multicopter documentation project."
 keywords: "drone, tutorial, help, guide, multicopter, multirotor, quadcopter, fpv"
 ---
 
 <br/>
 
-![This is an image](images/dronecrafting.png)
+![This is an image](images/logo.png)
 
 <br/>
 
