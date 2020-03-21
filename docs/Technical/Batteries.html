@@ -79,13 +79,27 @@
 batteries are lighter weight, drones benefit from the extra <a href="https://en.wikipedia.org/wiki/Electric_current" class="Link--external">electric current</a>
 draw that a LiPo battery can provide.</p>
 <p>This page will focus on LiPo batteries, but much of its content is just as valid for other types of batteries.</p>
+<h1 id="page_First_some_theory">First some theory</h1>
+<p>There are 4 units that are relevant to batteries:</p>
+<ul>
+<li>Voltage: expressed in <em>volts</em> with its unit <code>V</code> and the symbol (for equations) <code>U</code>.</li>
+<li>Current: expressed in <em>amps</em> with its unit <code>A</code> and the symbol <code>I</code>.</li>
+<li>Resistance: expressed in <em>Ohms</em> with its unit <code>&amp;#8486;</code> and the symbol <code>R</code>.</li>
+<li>Power: expressed in <em>watts</em> with its unit <code>W</code> and the symbol <code>P</code>.</li>
+</ul>
+<p><a href="https://en.wikipedia.org/wiki/Voltage" class="Link--external">Voltage</a> is the potential difference or <strong>electric tension between two points</strong>.
+The voltage of the cell is one of the main drivers of how fast your drone will be able to fly.</p>
+<p><a href="https://en.wikipedia.org/wiki/Electric_current" class="Link--external">Current</a> is the <strong>rate of flow</strong> of electric charge.
+So even if you have a high voltage, you still need to deliver a high enough current (more amps) to let the energy flow to your motors.</p>
+<p><a href="https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance" class="Link--external">Resistance</a> is the measure that determines
+the amount of <strong>opposition to the flow of electrical current</strong>. Your electrical circuits will have some sort of
+resistance, but also the wires that connect your battery will have a (minimal) resistance.</p>
+<p><a href="https://en.wikipedia.org/wiki/Electric_power" class="Link--external">Power</a> refers to the <strong>electrical energy</strong> that is being provided per unit of time.
+When we combine voltage and amps, we get power. (P = U x I)</p>
 <h1 id="page_Voltage_and_cell_count">Voltage and cell count</h1>
 <p>LiPo batteries are made out of multiple cells. Each cell provides roughly <code>3.7 V</code>.
 Depending on how the cells are combined, the battery can have either more longevity
-and provide more current, or the battery can provide a higher voltage (more power).</p>
-<p>Essentially, the voltage of the cell determines how fast your drone can go.
-The current of the cell determines how much of this power can be delivered at a given
-moment, and thus also affects how fast a drone can go.</p>
+and provide more current, or the battery can provide a higher voltage.</p>
 <p>A battery pack with 1 cell, delivering about <code>3.7 V</code> is labelled as being a <code>1S</code> battery.
 A battery pack with 2 cells delivers twice the voltage, so about <code>7.4 V</code> and is labelled as a <code>2S</code> battery.
 A battery pack with 3 cells delivers three times the voltage, so about <code>11.2 V</code> and is labelled as a <code>3S</code> battery.
@@ -98,12 +112,15 @@ If this happens, it could damage your battery.</p>
 <p>When a battery is under load, the voltage might drop temporarily. This effect is named &quot;sagging&quot;.
 The effect is especially visible on smaller drones (tinywhoops etc.) and is considered normal on them.</p>
 <h1 id="page_Battery_capacity">Battery capacity</h1>
-<p>The <code>mAh</code> rating of a battery defines its capacity. Let's take a deeper look at it:</p>
+<p>The <code>mAh</code> rating of a battery defines its capacity. Let's take a deeper look at it:
+<code>Ah</code> is referred to as &quot;amp hours&quot;. In other words: the duration (in hours) at which a certain amount of
+current(amps) can be sustained.</p>
 <p>The rate at which a battery can provide power (Voltage) is expressed in amps (<code>A</code>), or milli-amps (<code>mA</code>).
 When we talk about battery capacity, we generally talk about how long it can deliver a certain amount of these amps.
 So when we take in effect the time in hours (<code>h</code>) we get <code>A</code> x <code>h</code> = <code>Ah</code> (or <code>mAh</code>).</p>
 <p>The capacity of a battery in <code>mAh</code> is its relative capacity: as in, it is relative to the Voltage of the battery.
-The total energy of a battery is expressed in watt-hours or <code>Wh</code>. Watts are calculated as follows: <code>W = A x V</code>.</p>
+The total energy of a battery is expressed in watt-hours or <code>Wh</code>.
+Watts are calculated as follows: <code>P(Power) = U(Voltage) x I(Current)</code>.</p>
 <p>Thus, a <code>14.8 V</code> battery with <code>1500 mAh</code> capacity has <code>14.8 V</code> x <code>1.5 Ah</code> = <code>22,2 Wh</code> of energy.</p>
 <h1 id="page_C_Rating">&quot;C&quot; Rating</h1>
 <p>The C rating of a battery refers to the rate of discharge that a battery can provide.
