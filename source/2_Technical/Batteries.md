@@ -11,7 +11,7 @@ This page will focus on LiPo batteries, but much of its content is just as valid
 There are 4 units that are relevant to batteries:
 - Voltage: expressed in _volts_ with its unit `V` and the symbol (for equations) `U`.
 - Current: expressed in _amps_ with its unit `A` and the symbol `I`.
-- Resistance: expressed in _Ohms_ with its unit `&#8486;` and the symbol `R`.
+- Resistance: expressed in _Ohms_ with its unit `Ω` and the symbol `R`.
 - Power: expressed in _watts_ with its unit `W` and the symbol `P`.
 
 [Voltage](https://en.wikipedia.org/wiki/Voltage) is the potential difference or **electric tension between two points**.
