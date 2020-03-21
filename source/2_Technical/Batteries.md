@@ -24,7 +24,7 @@ And so on.
 When a battery is charged, its voltage is higher than when it is discharged.
 A charged cell is generally at `4.2 V`, while a discharged cell is around `3.3 V` to `3.5 V`, depending on context.
 When discharging (or using) a battery, it is **very** important that the voltage never drops below `3.0 V`.
-If this happen, it could damage your battery.
+If this happens, it could damage your battery.
 
 # Voltage and "sagging"
 
