@@ -4,7 +4,7 @@ Home-built drones are most often running LiPo (Lithium-Polymer) batteries. Even 
 batteries are lighter weight, drones benefit from the extra [electric current](https://en.wikipedia.org/wiki/Electric_current)
 draw that a LiPo battery can provide.
 
-This page will focus mostly on LiPo batteries.
+This page will focus on LiPo batteries, but much of its content is just as valid for other types of batteries.
 
 # Voltage and cell count
 
