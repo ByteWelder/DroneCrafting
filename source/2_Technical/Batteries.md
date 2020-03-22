@@ -54,13 +54,13 @@ The `mAh` rating of a battery defines its capacity. Let's take a deeper look at 
 `Ah` is referred to as "amp hours". In other words: the duration (in hours) at which a certain amount of
 current(amps) can be sustained.
 
-The rate at which a battery can provide power (Voltage) is expressed in amps (`A`), or milli-amps (`mA`).
+The rate at which a battery can provide power is expressed in amps (`A`), or milli-amps (`mA`).
 When we talk about battery capacity, we generally talk about how long it can deliver a certain amount of these amps.
 So when we take in effect the time in hours (`h`) we get `A` x `h` = `Ah` (or `mAh`).
 
-The capacity of a battery in `mAh` is its relative capacity: as in, it is relative to the Voltage of the battery.
-The total energy of a battery is expressed in watt-hours or `Wh`.
-Watts are calculated as follows: `P(Power) = U(Voltage) x I(Current)`.
+The capacity of a battery in `mAh` is its relative capacity: as in, it is relative to the voltage of the battery.
+The total energy of a battery is defined is expressed in watt-hours or `Wh`. This takes in account the
+voltage, the amps and the time (in hours).
 
 Thus, a `14.8 V` battery with `1500 mAh` capacity has `14.8 V` x `1.5 Ah` = `22,2 Wh` of energy.
 
