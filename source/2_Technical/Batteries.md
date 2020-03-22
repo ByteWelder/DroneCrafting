@@ -1,3 +1,7 @@
+> **Disclaimer:** Working with batteries is at your own risk. Apply all necessary safety precautions when storing
+> batteries and follow the battery manufacturer's advice at all times.
+> This guide is intended to provide you information and advice, but it is not fool-proof or garanteed to be complete.
+
 # LiPo or Li-Ion?
 
 Home-built drones are most often running LiPo (Lithium-Polymer) batteries. Even though Li-Ion
@@ -63,6 +67,24 @@ The total energy of a battery is defined is expressed in watt-hours or `Wh`. Thi
 voltage, the amps and the time (in hours).
 
 Thus, a `14.8 V` battery with `1500 mAh` capacity has `14.8 V` x `1.5 Ah` = `22,2 Wh` of energy.
+
+# Battery storage
+
+The energy in `Wh` that a battery contains is relevant when storing your batteries.
+Proper battery storage solution come with a `Wh` rating, specifying how much energy it can withhold
+in case of a LiPo fire.
+
+LiPo bags (the ones with velcro) will not stop a LiPo fire.
+It can, however, contain the flames of the LiPo fire somewhat, when you have one that is of decent quality.
+
+If you want to store your batteries safely, a solution like the [BatSafe](https://www.bat-safe.com) is a much
+safer one. This particular model is claimed to have a `220 Wh` capacity. There are various
+[videos on Youtube](https://www.youtube.com/results?search_query=batsafe+test) that showcase some LiPo fire tests.
+
+It is of utmost importance to not store your LiPos on or near a flammable surface (e.g. wood).
+Even if you use a more effective storage solution like a BatSafe, but _especially_ if you only use LiPo bags.
+It is also not advisable to store LiPo batteries inside your house. Not only are the flames dangerous, but
+the fumes of the LiPo fire are toxic.
 
 # "C" Rating
 
