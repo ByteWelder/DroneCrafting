@@ -3,7 +3,7 @@
 Below are the rules you must adhere to when operating a drone for civil use in the European Union.
 Please take into account that local restrictions also apply on top of these rules.
 
-This documentation is focused on the new guidelines that will come into effect in July 2020.
+This documentation is focused on the new guidelines that will come into effect on January 1st of 2021.
 The author(s) take no liability for the statements below. Please act responsibly and and lawfully.
 
 An outline from the rules and regulation can be found [here](https://www.easa.europa.eu/sites/default/files/dfu/217307_EASA_DRONE_POSTER_2018%20final.pdf).
@@ -25,7 +25,7 @@ Some notes on the tables below:
 
 ## Store bought drone classification
 
-This covers all drones that were sold on/after July 2020 with a class label (`Cx`).
+This covers all drones that were sold on/after January 2021 with a class label (`Cx`).
 
  Class | Weight | Subcategory | Distance from people | Operator registration | Pilot competence | RemoteID | Speed
 :---:|:-------:|:--:|:-------------------------------------------------|:---:|:-----------------------------------------------|:---:|:---------:
@@ -39,7 +39,7 @@ This covers all drones that were sold on/after July 2020 with a class label (`Cx
 
 ## Store bought drones without classification
 
-This covers drones that were sold before July 2020, so they don't have an official `Cx` label.
+This covers drones that were sold before July 2021, so they don't have an official `Cx` label.
 None of these drones require RemoteID.
 
  Weight | Subcategory | Distance from people | Operator registration | Pilot competence | Speed 
