@@ -1,11 +1,11 @@
 # ESC Fuse Fix
 
-I ordered a bunch of `RushFPV Mini Tank Stacks` that were rated for `30 A` and connected them to some `DYS Samguk 2600kV`
+I ordered a bunch of `RushFPV Mini Tank Stacks` that were rated for `30 A` and connected them to some `DYS Samguk 2600 Kv`
 motors _without propellers_. This minimal load blew the fuse on the ESC, making the ESC unusable.
 The result was that BetaFlight showed `0.01 V` when a lipo was connected.
 
 A friendly RushFPV customer support representative stated that this stack wasn't meant for `5"` quadcopters and motors with
-such high `KV` values. In my opinion, `30 A` is `30 A`, regardless of motor size, so I'm still under the impression
+such high `Kv` values. In my opinion, `30 A` is `30 A`, regardless of motor size, so I'm still under the impression
 that this stack just can't deliver what it says on the specifications.
 Thanks to the help of the RushFPV CSR, I was advised to bridge the fuse.
 I was given some pictures as a guide, but decided to make a comprehensive photo write-up myself.
