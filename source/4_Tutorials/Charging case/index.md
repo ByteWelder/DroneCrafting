@@ -31,7 +31,14 @@ I hope you enjoy reading about my successes, findings and failures.
 - Heat gun (optional)
 - Tweezers and soldering stand
 - Multimeter
-- Something to cut out the top plate (e.g. drill, jigsaw and Dremel)
+- Something to cut out the top plate (e.g. drill, jigsaw and Dremel**
+
+**I also designed some parts:**
+
+- ISDT Q6 bracket: [STL](downloads/isdt_q6_bracket.stl), [FreeCAD](downloads/isdt_q6_bracket.FCStd)
+- Balance board support plate: [STL](downloads/balance_board_plate.stl), [FreeCAD](downloads/balance_board_plate.FCStd)
+
+These parts are optional, as you can also use pieces of wood or plexiglass to construct something similar.
 
 The total cost as about EUR 250 with the ISDT chargers. Half of that amount was just the cost of the chargers,
 so buying a cheaper charger could save some money. I also bought some components that were optional (PDB, more fans, etc.)
