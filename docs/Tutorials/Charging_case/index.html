@@ -22,9 +22,8 @@
     <!-- Font -->
     
     <!-- CSS -->
-    <link href='../../themes/daux/css/theme-blue.min.css' rel='stylesheet' type='text/css'>
-            <!-- Search -->
-        <link href="../../daux_libraries/search.css" rel="stylesheet">
+            <link href='../../themes/daux/css/theme-blue.min.css' rel='stylesheet' type='text/css'>
+            <link href='../../daux_libraries/search.css' rel='stylesheet' type='text/css'>
     </head>
 <body class="">
     <div class="Columns content">
@@ -37,22 +36,37 @@
 
         <a class="Brand" href="../../index.html">DroneCrafting.com</a>
 
-    <div class="Search">
-        <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451">
-            <path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/>
-        </svg>
-        <input type="search" id="search_input" class="Search__field" placeholder="Search..." autocomplete="on"
-               results=25 autosave=text_search>
-    </div>
+    <form role='search' action="/" method="get" class="Search" id="search_form">
+        <label for="search_input">
+            <span class='u-visuallyHidden'>Search</span>
+        </label>
+        <input
+            type="search"
+            id="search_input"
+            class="Search__field"
+            placeholder="Search..."
+            aria-label="Search..."
+            autocomplete="on"
+            results=25
+            autosave=text_search
+        >
+        <label>
+            <input type="submit" class='u-visuallyHidden' />
+            <span class='u-visuallyHidden'>Search...</span>
+            <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451">
+                <path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/>
+            </svg>
+        </label>
+    </form>
 
         <div class="Collapsible__content" id="sidebar_content">
             <!-- Navigation -->
-            <ul class='Nav'><li class='Nav__item  has-children'><a href="../../Getting_Started/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Getting Started</a><ul class='Nav'><li class='Nav__item '><a href="../../Getting_Started/Budget.html">Budget</a></li><li class='Nav__item '><a href="../../Getting_Started/Building.html">Building</a></li><li class='Nav__item '><a href="../../Getting_Started/Gear.html">Gear</a></li><li class='Nav__item '><a href="../../Getting_Started/Simulators.html">Simulators</a></li></ul></li><li class='Nav__item  has-children'><a href="../../Technical/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Technical</a><ul class='Nav'><li class='Nav__item '><a href="../../Technical/Batteries.html">Batteries</a></li><li class='Nav__item '><a href="../../Technical/Flight_Controller.html">Flight Controller</a></li></ul></li><li class='Nav__item  has-children'><a href="../../Legal/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Legal</a><ul class='Nav'><li class='Nav__item '><a href="../../Legal/Europe.html">Europe</a></li><li class='Nav__item '><a href="../../Legal/USA.html">USA</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="../../Tutorials/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Tutorials</a><ul class='Nav'><li class='Nav__item Nav__item--open'><a href="../../Tutorials/Charging_case/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Charging case</a><ul class='Nav'></ul></li><li class='Nav__item '><a href="../../Tutorials/ESC_fuse_fix/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>ESC fuse fix</a><ul class='Nav'></ul></li><li class='Nav__item '><a href="../../Tutorials/Li_ion_battery_pack/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Li-ion battery pack</a><ul class='Nav'></ul></li></ul></li></ul>
+            <ul class='Nav'><li class='Nav__item Nav__item--open has-children'><a href="../../Tutorials/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Tutorials</a><ul class='Nav'><li class='Nav__item Nav__item--open'><a href="../../Tutorials/Charging_case/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Charging case</a><ul class='Nav'></ul></li><li class='Nav__item '><a href="../../Tutorials/ESC_fuse_fix/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>ESC fuse fix</a><ul class='Nav'></ul></li><li class='Nav__item '><a href="../../Tutorials/Li_ion_battery_pack/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Li-ion battery pack</a><ul class='Nav'></ul></li></ul></li></ul>
             <div class="Links">
                                     <hr/>
-                                            <a href="https://github.com/ByteWelder/DroneCrafting" target="_blank">Contribute</a>
+                                            <a href="https://github.com/ByteWelder/DroneCrafting" target="_blank"  rel="noopener noreferrer">Contribute</a>
                         <br />
-                                            <a href="https://github.com/ByteWelder/DroneCrafting/issues" target="_blank">Feedback/Support</a>
+                                            <a href="https://github.com/ByteWelder/DroneCrafting/issues" target="_blank"  rel="noopener noreferrer">Feedback/Support</a>
                         <br />
                                                 </div>
 
@@ -68,7 +82,7 @@
     <div class="Page__header">
         <h1><a href="../../Tutorials/index.html">Tutorials</a> <svg class="Page__header--separator" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175"><path d="M360.73 229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1 0s-5.3 13.8 0 19.1l215.5 215.5-215.5 215.5c-5.3 5.3-5.3 13.8 0 19.1 2.6 2.6 6.1 4 9.5 4 3.4 0 6.9-1.3 9.5-4l225.1-225.1c5.3-5.2 5.3-13.8.1-19z"/></svg> <a href="../../Tutorials/Charging_case/index.html">Charging case</a></h1>
                         <span class="EditOn">
-            <a href="https://github.com/ByteWelder/DroneCrafting/tree/master/source/4_Tutorials/Charging case/index.md" target="_blank">
+            <a href="https://github.com/ByteWelder/DroneCrafting/tree/master/source/1_Tutorials/Charging case/index.md" target="_blank">
                 Edit on GitHub            </a>
         </span>
             </div>
@@ -81,9 +95,9 @@ I hope you enjoy reading about my successes, findings and failures.</p>
 <p><strong>Materials used:</strong></p>
 <ul>
 <li>3x compact lipo charger (ISDT Q6 in my case)</li>
-<li>a case that is large enough to hold everything (mine was <code>464 x 366 x 176 mm</code> internally, type &quot;MAX 430S&quot; on Amazon)</li>
+<li>a case that is large enough to hold everything (mine was <code>464 x 366 x 176 mm</code> internally, type “MAX 430S” on Amazon)</li>
 <li>various electrical wire (silicon sleeved, I used <code>14 AWG</code> for the power delivery spec that I wanted)</li>
-<li>3x balance connector distribution board (search on AliExpress for &quot;B6AC A6 Charger&quot;)</li>
+<li>3x balance connector distribution board (search on AliExpress for “B6AC A6 Charger”)</li>
 <li>power distribution board (optional)</li>
 <li>6x <code>40 mm</code> fan (can be more/less, depending on your ventilation requirements)</li>
 <li>6x fan cover (e.g. plastic mesh)</li>
@@ -116,7 +130,7 @@ I hope you enjoy reading about my successes, findings and failures.</p>
 <p>These parts are optional, as you can also use pieces of wood or plexiglass to construct something similar.</p>
 <p>The total cost as about EUR 250 with the ISDT chargers. Half of that amount was just the cost of the chargers,
 so buying a cheaper charger could save some money. I also bought some components that were optional (PDB, more fans, etc.)
-You could probably bring the total down to slightly below EUR 200 if you're making some different choices here and there.</p>
+You could probably bring the total down to slightly below EUR 200 if you’re making some different choices here and there.</p>
 <h1 id="page_Steps">Steps</h1>
 <p>First, I bought a case. It was relatively cheap, and the only downside was that it is a bit heavy:</p>
 <p><img src="1_case_closed.jpg" alt="closed case" /></p>
@@ -129,14 +143,14 @@ Dual Lock:</p>
 that the combined airflow of the power supply unit (PSU) was working well with the airflow of the chargers. Another
 consideration was how the placement would affect the center of gravity of the case, so it would be nice to carry.</p>
 <p>I mounted the PSU on the wooden plate with standoffs, so that the airflow would be better. I also wanted to make sure that
-if the power supply ever got really hot (which I don't expect), it wouldn't be touching the wood:</p>
+if the power supply ever got really hot (which I don’t expect), it wouldn’t be touching the wood:</p>
 <p><img src="3_psu_on_bottom_plate_a.jpg" alt="power supply mounted" /></p>
 <p>Here it is placed in the case:</p>
 <p><img src="3_psu_on_bottom_plate_b.jpg" alt="power supply mounted" /></p>
 <p>Similarly, I created a top plate. It rests nicely on the rim of the case, and due to the design of the case, the lid
 still closes perfectly.</p>
 <p><img src="3_top_plate.jpg" alt="top plate" /></p>
-<p>I drew some edges on it, to visualize how much actual space was usable. That way, I wouldn't be hitting the side of the case:</p>
+<p>I drew some edges on it, to visualize how much actual space was usable. That way, I wouldn’t be hitting the side of the case:</p>
 <p><img src="4_top_plate_edge.jpg" alt="top plate with edge marked" /></p>
 <p>I made many sketches on paper before picking my preferred layout. I laid some of the components on the paper to see if it would
 work well. The considerations were: airflow, wire connections (amount of wire needed), space during charging (how close is
@@ -146,7 +160,7 @@ everything to each other).</p>
 <p>And of course I verified it by adding the components on top:</p>
 <p><img src="6_top_plate_layout_verify.jpg" alt="top plate with components on top" /></p>
 <p>At this point, I started prepping wires already. This would allow me to already connect the chargers and start charging.
-That way, I didn't have to wait to the end of the project until I'd have a functioning charging setup!</p>
+That way, I didn’t have to wait to the end of the project until I’d have a functioning charging setup!</p>
 <p><img src="7_prep_wires.jpg" alt="wires prepped" /></p>
 <p>As you can see, the rig was already functionally usable:</p>
 <p><img src="8_already_usable.jpg" alt="functional chargers" /></p>
@@ -165,7 +179,7 @@ not at least not at the same time!</p>
 <p><img src="11_cooling_becs.jpg" alt="PDB, BECs and fans" /></p>
 <p>At this point I started cutting out the top plate:</p>
 <p><img src="12_top_plate_cutting.jpg" alt="top plate cut out" /></p>
-<p>Because I used triplex wood, and I'm not super experienced with it, the wood partially disintegrated when cutting into it.
+<p>Because I used triplex wood, and I’m not super experienced with it, the wood partially disintegrated when cutting into it.
 I used some 2 component epoxy filler to fix most of it:</p>
 <p><img src="13_top_plate_filling.jpg" alt="top plate touch up" /></p>
 <p>To finish the top plate, I painted it black:</p>
@@ -194,18 +208,10 @@ epoxy filler (yes, filler) to glue the charger brackets on:</p>
     </div>
 </div>
 
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', '', '');
-    ga('send', 'pageview');
-</script>
-
+    
     <!-- JS -->
-    <script src="../../themes/daux/js/daux.min.js"></script>
+            <script src="../../themes/daux/js/daux.min.js"></script>
+    
         <script>
         
         window.searchLanguage = "";
@@ -218,6 +224,5 @@ epoxy filler (yes, filler) to glue the charger brackets on:</p>
     <script>
         window.search({'base_url': '../../'})
     </script>
-
 </body>
 </html>

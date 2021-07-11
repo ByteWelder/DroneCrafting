@@ -22,9 +22,8 @@
     <!-- Font -->
     
     <!-- CSS -->
-    <link href='../themes/daux/css/theme-blue.min.css' rel='stylesheet' type='text/css'>
-            <!-- Search -->
-        <link href="../daux_libraries/search.css" rel="stylesheet">
+            <link href='../themes/daux/css/theme-blue.min.css' rel='stylesheet' type='text/css'>
+            <link href='../daux_libraries/search.css' rel='stylesheet' type='text/css'>
     </head>
 <body class="">
     <div class="Columns content">
@@ -37,22 +36,37 @@
 
         <a class="Brand" href="../index.html">DroneCrafting.com</a>
 
-    <div class="Search">
-        <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451">
-            <path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/>
-        </svg>
-        <input type="search" id="search_input" class="Search__field" placeholder="Search..." autocomplete="on"
-               results=25 autosave=text_search>
-    </div>
+    <form role='search' action="/" method="get" class="Search" id="search_form">
+        <label for="search_input">
+            <span class='u-visuallyHidden'>Search</span>
+        </label>
+        <input
+            type="search"
+            id="search_input"
+            class="Search__field"
+            placeholder="Search..."
+            aria-label="Search..."
+            autocomplete="on"
+            results=25
+            autosave=text_search
+        >
+        <label>
+            <input type="submit" class='u-visuallyHidden' />
+            <span class='u-visuallyHidden'>Search...</span>
+            <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451">
+                <path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/>
+            </svg>
+        </label>
+    </form>
 
         <div class="Collapsible__content" id="sidebar_content">
             <!-- Navigation -->
-            <ul class='Nav'><li class='Nav__item  has-children'><a href="../Getting_Started/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Getting Started</a><ul class='Nav'><li class='Nav__item '><a href="../Getting_Started/Budget.html">Budget</a></li><li class='Nav__item '><a href="../Getting_Started/Building.html">Building</a></li><li class='Nav__item '><a href="../Getting_Started/Gear.html">Gear</a></li><li class='Nav__item '><a href="../Getting_Started/Simulators.html">Simulators</a></li></ul></li><li class='Nav__item  has-children'><a href="../Technical/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Technical</a><ul class='Nav'><li class='Nav__item '><a href="../Technical/Batteries.html">Batteries</a></li><li class='Nav__item '><a href="../Technical/Flight_Controller.html">Flight Controller</a></li></ul></li><li class='Nav__item  has-children'><a href="../Legal/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Legal</a><ul class='Nav'><li class='Nav__item '><a href="../Legal/Europe.html">Europe</a></li><li class='Nav__item '><a href="../Legal/USA.html">USA</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="../Tutorials/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Tutorials</a><ul class='Nav'><li class='Nav__item '><a href="../Tutorials/Charging_case/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Charging case</a><ul class='Nav'></ul></li><li class='Nav__item '><a href="../Tutorials/ESC_fuse_fix/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>ESC fuse fix</a><ul class='Nav'></ul></li><li class='Nav__item '><a href="../Tutorials/Li_ion_battery_pack/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Li-ion battery pack</a><ul class='Nav'></ul></li></ul></li></ul>
+            <ul class='Nav'><li class='Nav__item Nav__item--open has-children'><a href="../Tutorials/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Tutorials</a><ul class='Nav'><li class='Nav__item '><a href="../Tutorials/Charging_case/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Charging case</a><ul class='Nav'></ul></li><li class='Nav__item '><a href="../Tutorials/ESC_fuse_fix/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>ESC fuse fix</a><ul class='Nav'></ul></li><li class='Nav__item '><a href="../Tutorials/Li_ion_battery_pack/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Li-ion battery pack</a><ul class='Nav'></ul></li></ul></li></ul>
             <div class="Links">
                                     <hr/>
-                                            <a href="https://github.com/ByteWelder/DroneCrafting" target="_blank">Contribute</a>
+                                            <a href="https://github.com/ByteWelder/DroneCrafting" target="_blank"  rel="noopener noreferrer">Contribute</a>
                         <br />
-                                            <a href="https://github.com/ByteWelder/DroneCrafting/issues" target="_blank">Feedback/Support</a>
+                                            <a href="https://github.com/ByteWelder/DroneCrafting/issues" target="_blank"  rel="noopener noreferrer">Feedback/Support</a>
                         <br />
                                                 </div>
 
@@ -68,14 +82,14 @@
     <div class="Page__header">
         <h1><a href="../Tutorials/index.html">Tutorials</a></h1>
                         <span class="EditOn">
-            <a href="https://github.com/ByteWelder/DroneCrafting/tree/master/source/4_Tutorials/_index.md" target="_blank">
+            <a href="https://github.com/ByteWelder/DroneCrafting/tree/master/source/1_Tutorials/_index.md" target="_blank">
                 Edit on GitHub            </a>
         </span>
             </div>
 
     <div class="s-content">
         <h1 id="page_Introductions">Introductions</h1>
-<p>Here you'll find various tutorials.</p>
+<p>Here you’ll find various tutorials.</p>
     </div>
 
     </article>
@@ -85,18 +99,10 @@
     </div>
 </div>
 
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', '', '');
-    ga('send', 'pageview');
-</script>
-
+    
     <!-- JS -->
-    <script src="../themes/daux/js/daux.min.js"></script>
+            <script src="../themes/daux/js/daux.min.js"></script>
+    
         <script>
         
         window.searchLanguage = "";
@@ -109,6 +115,5 @@
     <script>
         window.search({'base_url': '../'})
     </script>
-
 </body>
 </html>

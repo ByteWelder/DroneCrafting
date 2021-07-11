@@ -22,9 +22,8 @@
     <!-- Font -->
     
     <!-- CSS -->
-    <link href='../../themes/daux/css/theme-blue.min.css' rel='stylesheet' type='text/css'>
-            <!-- Search -->
-        <link href="../../daux_libraries/search.css" rel="stylesheet">
+            <link href='../../themes/daux/css/theme-blue.min.css' rel='stylesheet' type='text/css'>
+            <link href='../../daux_libraries/search.css' rel='stylesheet' type='text/css'>
     </head>
 <body class="">
     <div class="Columns content">
@@ -37,22 +36,37 @@
 
         <a class="Brand" href="../../index.html">DroneCrafting.com</a>
 
-    <div class="Search">
-        <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451">
-            <path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/>
-        </svg>
-        <input type="search" id="search_input" class="Search__field" placeholder="Search..." autocomplete="on"
-               results=25 autosave=text_search>
-    </div>
+    <form role='search' action="/" method="get" class="Search" id="search_form">
+        <label for="search_input">
+            <span class='u-visuallyHidden'>Search</span>
+        </label>
+        <input
+            type="search"
+            id="search_input"
+            class="Search__field"
+            placeholder="Search..."
+            aria-label="Search..."
+            autocomplete="on"
+            results=25
+            autosave=text_search
+        >
+        <label>
+            <input type="submit" class='u-visuallyHidden' />
+            <span class='u-visuallyHidden'>Search...</span>
+            <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451">
+                <path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/>
+            </svg>
+        </label>
+    </form>
 
         <div class="Collapsible__content" id="sidebar_content">
             <!-- Navigation -->
-            <ul class='Nav'><li class='Nav__item  has-children'><a href="../../Getting_Started/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Getting Started</a><ul class='Nav'><li class='Nav__item '><a href="../../Getting_Started/Budget.html">Budget</a></li><li class='Nav__item '><a href="../../Getting_Started/Building.html">Building</a></li><li class='Nav__item '><a href="../../Getting_Started/Gear.html">Gear</a></li><li class='Nav__item '><a href="../../Getting_Started/Simulators.html">Simulators</a></li></ul></li><li class='Nav__item  has-children'><a href="../../Technical/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Technical</a><ul class='Nav'><li class='Nav__item '><a href="../../Technical/Batteries.html">Batteries</a></li><li class='Nav__item '><a href="../../Technical/Flight_Controller.html">Flight Controller</a></li></ul></li><li class='Nav__item  has-children'><a href="../../Legal/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Legal</a><ul class='Nav'><li class='Nav__item '><a href="../../Legal/Europe.html">Europe</a></li><li class='Nav__item '><a href="../../Legal/USA.html">USA</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="../../Tutorials/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Tutorials</a><ul class='Nav'><li class='Nav__item '><a href="../../Tutorials/Charging_case/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Charging case</a><ul class='Nav'></ul></li><li class='Nav__item '><a href="../../Tutorials/ESC_fuse_fix/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>ESC fuse fix</a><ul class='Nav'></ul></li><li class='Nav__item Nav__item--open'><a href="../../Tutorials/Li_ion_battery_pack/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Li-ion battery pack</a><ul class='Nav'></ul></li></ul></li></ul>
+            <ul class='Nav'><li class='Nav__item Nav__item--open has-children'><a href="../../Tutorials/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Tutorials</a><ul class='Nav'><li class='Nav__item '><a href="../../Tutorials/Charging_case/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Charging case</a><ul class='Nav'></ul></li><li class='Nav__item '><a href="../../Tutorials/ESC_fuse_fix/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>ESC fuse fix</a><ul class='Nav'></ul></li><li class='Nav__item Nav__item--open'><a href="../../Tutorials/Li_ion_battery_pack/index.html" class="Nav__item__link"><i class="Nav__arrow">&nbsp;</i>Li-ion battery pack</a><ul class='Nav'></ul></li></ul></li></ul>
             <div class="Links">
                                     <hr/>
-                                            <a href="https://github.com/ByteWelder/DroneCrafting" target="_blank">Contribute</a>
+                                            <a href="https://github.com/ByteWelder/DroneCrafting" target="_blank"  rel="noopener noreferrer">Contribute</a>
                         <br />
-                                            <a href="https://github.com/ByteWelder/DroneCrafting/issues" target="_blank">Feedback/Support</a>
+                                            <a href="https://github.com/ByteWelder/DroneCrafting/issues" target="_blank"  rel="noopener noreferrer">Feedback/Support</a>
                         <br />
                                                 </div>
 
@@ -68,7 +82,7 @@
     <div class="Page__header">
         <h1><a href="../../Tutorials/index.html">Tutorials</a> <svg class="Page__header--separator" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175"><path d="M360.73 229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1 0s-5.3 13.8 0 19.1l215.5 215.5-215.5 215.5c-5.3 5.3-5.3 13.8 0 19.1 2.6 2.6 6.1 4 9.5 4 3.4 0 6.9-1.3 9.5-4l225.1-225.1c5.3-5.2 5.3-13.8.1-19z"/></svg> <a href="../../Tutorials/Li_ion_battery_pack/index.html">Li-ion battery pack</a></h1>
                         <span class="EditOn">
-            <a href="https://github.com/ByteWelder/DroneCrafting/tree/master/source/4_Tutorials/Li-ion battery pack/index.md" target="_blank">
+            <a href="https://github.com/ByteWelder/DroneCrafting/tree/master/source/1_Tutorials/Li-ion battery pack/index.md" target="_blank">
                 Edit on GitHub            </a>
         </span>
             </div>
@@ -84,7 +98,7 @@ This guide is also relevant for constructing with <code>18650</code> cells.</p>
 <li>A balance plug and wire for it (or balance extension cord that you cut)</li>
 <li>18 AWG wire (can be thicker if you need more amps)</li>
 </ul>
-<p>Let's first list the tools that I used:</p>
+<p>Let’s first list the tools that I used:</p>
 <ul>
 <li>Soldering iron</li>
 <li>Hot glue gun</li>
@@ -102,17 +116,17 @@ The author is not responsible for any damage or harm that may happen from follow
 <h1 id="page_Steps">Steps</h1>
 <p>First we start with two identical cells. These are Samsung <code>INR21700-50E</code> cells:</p>
 <p><img src="01_start.jpg" alt="2 Samsung 21700 cells " /></p>
-<p>You can find the specifications of these cells <a href="https://lygte-info.dk/review/batteries2012/Samsung%20INR21700-50E%205000mAh%20(Cyan)%20UK.html" class="Link--external">here</a>.</p>
+<p>You can find the specifications of these cells <a href="https://lygte-info.dk/review/batteries2012/Samsung%20INR21700-50E%205000mAh%20(Cyan)%20UK.html" class="Link--external" rel="noopener noreferrer">here</a>.</p>
 <p>Before we actually start, please note that all wires should be pre-tinned.
 This will make it much easier to combine the components:</p>
 <p><img src="02_prep.jpg" alt="2 pre-tinned wires" /></p>
 <p>Now put the cells together. They must touch each other. I used 2 coasters to help me with that.
 You can then use a tool to align them vertically:</p>
 <p><img src="03_arrange.jpg" alt="2 cells laying flat and aligned" /></p>
-<p>Carefully apply hot glue on one side of the cells. Make sure your glue gun doesn't touch the cells,
-so you don't melt the plastic wrapper. Let it dry for 30-60 seconds and then do the other side too:</p>
+<p>Carefully apply hot glue on one side of the cells. Make sure your glue gun doesn’t touch the cells,
+so you don’t melt the plastic wrapper. Let it dry for 30-60 seconds and then do the other side too:</p>
 <p><img src="04_glue.jpg" alt="2 cells with hot glue" /></p>
-<p>Since I don't have a spot, I need to solder them regularly.
+<p>Since I don’t have a spot, I need to solder them regularly.
 Before we can add solder to the cells, we need to remove the oxidised layer from the cells.
 I do this by scraping carefully with a knife. But the cell flat on the table and start scraping at
 the center of the contact point.</p>
@@ -145,7 +159,7 @@ to the positive side of the cell, and the black cable goes to the negative side 
 <p><img src="17_solder_balance.jpg" alt="balance cable is fully soldered" /></p>
 <p>Now solder an XT30 connector to the same contacts:</p>
 <p><img src="18_solder_xt30.jpg" alt="XT30 soldered onto cells" /></p>
-<p>We're about to make some covers to protect the top and bottom of the battery pack.
+<p>We’re about to make some covers to protect the top and bottom of the battery pack.
 Take some double-sided tape, cut it to length. Then apply kapton tape (or electrical tape?) on one side.</p>
 <p><img src="19_protective_cover_prep.jpg" alt="double-sided tape and kapton tape" /></p>
 <p><img src="20_protective_cover_applied.jpg" alt="tape applied to cells" /></p>
@@ -154,7 +168,7 @@ Take some double-sided tape, cut it to length. Then apply kapton tape (or electr
 <p>Hold the lipo by all of its wires and use the heat gun to carefully heat the shrink tube.
 Your pack is now finished:</p>
 <p><img src="21_shrink_tube_finished.jpg" alt="finished battery pack" /></p>
-<p>Since we used Samsung <code>INR21700-50E</code> cells, this battery pack is a <code>2S</code> pack with <code>5000 mAh</code>. Even though these are <code>Li-Ion</code> cells, they are charged to <code>4.2 V</code>. The cut-off voltage is a mere <code>2.5 V</code>! You can charge at maximum <code>4900 mA</code>, but it's advised to charge them slower. They can be discharged at <code>9800 mAh</code> continuously, or <code>14700 mA</code> pulse. (according to <a href="https://lygte-info.dk/review/batteries2012/Samsung%20INR21700-50E%205000mAh%20(Cyan)%20UK.html" class="Link--external">this page</a>)</p>
+<p>Since we used Samsung <code>INR21700-50E</code> cells, this battery pack is a <code>2S</code> pack with <code>5000 mAh</code>. Even though these are <code>Li-Ion</code> cells, they are charged to <code>4.2 V</code>. The cut-off voltage is a mere <code>2.5 V</code>! You can charge at maximum <code>4900 mA</code>, but it’s advised to charge them slower. They can be discharged at <code>9800 mAh</code> continuously, or <code>14700 mA</code> pulse. (according to <a href="https://lygte-info.dk/review/batteries2012/Samsung%20INR21700-50E%205000mAh%20(Cyan)%20UK.html" class="Link--external" rel="noopener noreferrer">this page</a>)</p>
 <p>When using different cells than the ones above, make sure to look up the the specifications of these cells.
 The voltages and currents will very likely be different.</p>
     </div>
@@ -166,18 +180,10 @@ The voltages and currents will very likely be different.</p>
     </div>
 </div>
 
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', '', '');
-    ga('send', 'pageview');
-</script>
-
+    
     <!-- JS -->
-    <script src="../../themes/daux/js/daux.min.js"></script>
+            <script src="../../themes/daux/js/daux.min.js"></script>
+    
         <script>
         
         window.searchLanguage = "";
@@ -190,6 +196,5 @@ The voltages and currents will very likely be different.</p>
     <script>
         window.search({'base_url': '../../'})
     </script>
-
 </body>
 </html>
